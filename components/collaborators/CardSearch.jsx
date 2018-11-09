@@ -24,6 +24,7 @@ class CardSearch extends React.Component {
   render() {
     const { classes, handleSearchChange, searchData } = this.props;
     console.log("CLASSES", classes);
+    
     return (
       <Paper elevation={1} className={classes.paperSearch}>
         <Grid container>
